@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+</head>
+<body>
+    <header>Чат-бот</header>
+    <div class="chat">
+        <div class="messages">
+            <div class="message-block userMessage animate" id="userAnimation" style="display: none;">
+                <img src="./assets/images/user_avatar.png" alt="Bot Avatar" />
+                <div class="message">
+                    <div class="circle-block">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-block">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-block">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="input-group">
+            <input type="text" id="chatInput">
+            <button id="chatButton" class="">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+
+    <script src="./assets/js/chat.js"></script>
+</body>
+</html>
